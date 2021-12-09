@@ -14,14 +14,16 @@
         fwrite($fh, $id . "\n");
         fclose($fh);
         if ($id == 1)
-            header('location:team-A.html');
+            echo "<script type='text/javascript'>window.location.href='team-A.html'</script>";
         elseif ($id == 2)
-            header('location:team-B.html');
+            echo "<script type='text/javascript'>window.location.href='team-B.html'</script>";
         elseif ($id == 3)
-            header('location:team-C.html');
+            echo "<script type='text/javascript'>window.location.href='team-C.html'</script>";
         elseif ($id == 4)
-            header('location:team-D.html');
+            echo "<script type='text/javascript'>window.location.href='team-D.html'</script>";
+            
         ?>
+        
         <div id="buzzer">
 
         </div>
