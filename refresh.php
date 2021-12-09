@@ -17,7 +17,7 @@
         fclose($fh);
         
         
-        header("location:result.php");
+        echo "<script type='text/javascript'>window.location.href='result.php'</script>";
         ?>
     </body>
 </html>
