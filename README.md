@@ -1,3 +1,8 @@
+Updated the php header function to javascript to avoid getting errors. Big thanks to Anenth for the initial work.
+
+
+
+
 Buzzer
 ======
 
